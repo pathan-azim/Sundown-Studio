@@ -3,7 +3,15 @@
 //     smooth: true
 // });
 
+if ($(window).width() <= 960 && $(window).height <= 640){
+    t1.from(centerRight, {
+    x: -100,
+    opacity: 0,
+    delay: 1,
+    duration: 1.5
+})
 
+}
 var a = document.querySelector("#elem-container")
 var b = document.querySelector("#fixed-img")
 a.addEventListener("mouseenter", function () {
