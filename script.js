@@ -2,18 +2,7 @@
 //     el: document.querySelector('#main'),
 //     smooth: true
 // });
-function loaderhide(){
-if ($(window).width() <= 600)
- {
-    t1.from(centerRight, {
-    x: -100,
-    opacity: 0,
-    delay: 1,
-    duration: 1.5
-    })
-  }
-}
-loaderhide();
+
 var a = document.querySelector("#elem-container")
 var b = document.querySelector("#fixed-img")
 a.addEventListener("mouseenter", function () {
@@ -173,7 +162,20 @@ elemimge.addEventListener("touchend",function(){
 var centerLeft = document.querySelector(".left")
 var centerRight = document.querySelector(".right")
 var t1 = gsap.timeline()
-
+function loaderhide(){
+if ($(window).width() <= 600)
+ {
+    t1.from(centerRight, {
+    x: -100,
+    opacity: 0,
+    delay: 1,
+    duration: 1.5
+    })
+  }
+ else{
+  return false
+}
+loaderhide();
 // t1.from(centerLeft, {
 //     x:100,
 //     opacity: 0,
