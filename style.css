@@ -22,7 +22,7 @@ body {
 }
 
 .loader {
-    position: fixed;
+    position: absolute;
     background-color: #000;
     z-index: 20;
     height: 100vh;
