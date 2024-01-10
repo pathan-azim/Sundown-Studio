@@ -3,7 +3,7 @@
 //     smooth: true
 // });
 function loaderhide(){
-if ($(window).width() <= 960 && $(window).height <= 640)
+if ($(window).width() <= 600)
  {
     t1.from(centerRight, {
     x: -100,
