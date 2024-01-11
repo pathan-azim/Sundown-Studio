@@ -904,7 +904,7 @@ input::placeholder {
         z-index:inherit;
         height: 0.5vw;
         width: 4vw;
-        pointer-event:none;
+        pointer-events: none;
         /* margin-right: 1vw; */
         background-color: #000;
         transition: all ease-in 0.5s;
@@ -915,7 +915,7 @@ input::placeholder {
 
     .line2 {
         
-        pointer-event:none;
+        pointer-events:none;
 
         
         /* margin-bottom: 0.5vw; */
@@ -932,7 +932,7 @@ input::placeholder {
     }
 
     .line3 {
-        pointer-event:none;
+        pointer-events: none;
         position:relative;
         z-index:inherit;
         height: 0.5vw;
@@ -959,7 +959,7 @@ input::placeholder {
         font-size: 2.5vw;
         color: black;
         display:block;
-        pointer-event:none;
+        pointer-events: none;
         position:relative; 
         z-index:inherit;
         
