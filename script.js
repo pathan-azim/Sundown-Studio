@@ -13,6 +13,7 @@ var loader = document.querySelector(".loader")
 
 loader();
 function loaderhide1(){
+ var loader = document.querySelector(".loader")
     setTimeout(function () {
         loader.style.display = "none"
     }, 5000)
