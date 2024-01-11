@@ -967,7 +967,7 @@ input::placeholder {
         /* padding-left: 10vw; */
     }
     .center {
-        height: 35vh;
+        height: 55vh;
         /* background-color: orange; */
         display: flex;
         align-items: flex-end;
@@ -978,7 +978,7 @@ input::placeholder {
         border-bottom: 1px solid black;
     }
  .right h1 {
-        padding-top:2vw;
+        padding-top:4vw;
         font-size: 6.5vh;
         letter-spacing: -0.5vh;
         line-height: 4vh;
@@ -989,7 +989,7 @@ input::placeholder {
         font-size: 2vh;
         line-height: 1.8vh;
         letter-spacing: -0.1vh;
-        padding-bottom: 2vw;
+        padding-bottom: 4vw;
 
     }
     .hero-shape {
