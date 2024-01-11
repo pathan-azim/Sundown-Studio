@@ -3,6 +3,10 @@
 //     smooth: true
 // });
 
+var loader = document.querySelector(".loader")
+setTimeout(function () {
+    loader.style.top = "-100%"
+}, 4000)
 var a = document.querySelector("#elem-container")
 var b = document.querySelector("#fixed-img")
 a.addEventListener("mouseenter", function () {
@@ -29,10 +33,6 @@ var swiper = new Swiper(".mySwiper", {
     },
 })
 
-var loader = document.querySelector(".loader")
-setTimeout(function () {
-    loader.style.top = "-120%"
-}, 4000)
 
 var line1 = document.querySelector(".line1")
 var line2 = document.querySelector(".line2")
