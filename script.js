@@ -31,7 +31,7 @@ var swiper = new Swiper(".mySwiper", {
 
 var loader = document.querySelector(".loader")
 setTimeout(function () {
-    loader.style.top = "-100%"
+    loader.style.top = "-120%"
 }, 4000)
 
 var line1 = document.querySelector(".line1")
@@ -121,7 +121,6 @@ execution.addEventListener("click", function () {
 })
 }
 executionTab()
-
 var cursor = document.querySelector(".cursor")
 var myswiper = document.querySelector(".swiper")
 myswiper.addEventListener("mousemove", function (dets) {
@@ -162,25 +161,12 @@ elemimge.addEventListener("touchend",function(){
 var centerLeft = document.querySelector(".left")
 var centerRight = document.querySelector(".right")
 var t1 = gsap.timeline()
-function loaderhide(){
-if ($(window).width() <= 600)
- {
-    t1.from(centerRight, {
-    x: -100,
+t1.from(centerLeft, {
+    x:100,
     opacity: 0,
-    delay: 1,
-    duration: 1.5
-    })
-  }
- else{
-  return false
-}
-loaderhide();
-// t1.from(centerLeft, {
-//     x:100,
-//     opacity: 0,
-//     duration: 4
-// })
+    delay:4,
+    duration: 1
+})
 t1.from(centerRight, {
     x: -100,
     opacity: 0,
