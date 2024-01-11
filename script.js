@@ -5,7 +5,7 @@
 
 var loader = document.querySelector(".loader")
 setTimeout(function () {
-    loader.style.top = "-100%"
+    loader.style.top = "-150%"
 }, 4000)
 var a = document.querySelector("#elem-container")
 var b = document.querySelector("#fixed-img")
