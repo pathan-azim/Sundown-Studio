@@ -978,21 +978,18 @@ input::placeholder {
         border-bottom: 1px solid black;
     }
     .right h1 {
-      letter-spacing: -.03em;
-      text-transform: uppercase;
-      font-family: Neuehaasdisplay mediu,sans-serif;
-      font-size: 7em;
-      font-weight: 500;
-      line-height: .8;
+        padding-top:8vw;
+        font-size: 6.5vh;
+        letter-spacing: -0.5vh;
+        line-height: 4vh;
     }
 
     .left h3 {
         width: 80%;
-        letter-spacing: -.03em;
-        font-family: Neuehaasdisplay mediu,sans-serif;
-        font-size: 1.75em;
-        font-weight: 500;
-        line-height: 1;
+        font-size: 2vh;
+        line-height: 1.8vh;
+        letter-spacing: -0.1vh;
+        padding-bottom: 8vw;
     }
     .hero-shape {
         position: absolute;
