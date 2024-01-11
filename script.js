@@ -3,11 +3,21 @@
 //     smooth: true
 // });
 
+function loader(){  
 var loader = document.querySelector(".loader")
-setTimeout(function () {
-    loader.style.top = "-100%"
-    loader.style.opacity = "0"
-}, 4000)
+    setTimeout(function () {
+        loader.style.top = "-100%"
+        
+    }, 4000)
+}
+
+loader();
+function loaderhide1(){
+    setTimeout(function () {
+        loader.style.display = "none"
+    }, 5000)
+}
+loaderhide1();
 var a = document.querySelector("#elem-container")
 var b = document.querySelector("#fixed-img")
 a.addEventListener("mouseenter", function () {
