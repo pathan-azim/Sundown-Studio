@@ -164,13 +164,11 @@ var t1 = gsap.timeline()
 t1.from(centerLeft, {
     x:100,
     opacity: 0,
-    delay:4,
     duration: 1
 })
 t1.from(centerRight, {
     x: -100,
     opacity: 0,
-    delay: 4,
     duration: 1.5
 })
 
