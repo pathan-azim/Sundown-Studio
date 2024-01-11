@@ -1005,7 +1005,7 @@ input::placeholder {
         border-bottom-left-radius: 50%;
         /* border-top-right-radius: 50%; */
         right: -15%;
-        top: 55vh;
+        top: 70vh;
         filter: blur(15px);
         animation-name: rotate1;
         animation-duration: 2s;
