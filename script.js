@@ -53,7 +53,6 @@ menubtn.addEventListener("click", function () {
         line3.style.display = "none"
         navbar.style.backgroundColor = "white"
         navImg.style.opacity = "0"
-        console.log("opration succefull")
         flag = 1
     }
     else {
