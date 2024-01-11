@@ -16,7 +16,7 @@ function loaderhide1(){
  var loader = document.querySelector(".loader")
     setTimeout(function () {
         loader.style.display = "none"
-    }, 5000)
+    }, 4000)
 }
 loaderhide1();
 var a = document.querySelector("#elem-container")
