@@ -900,6 +900,7 @@ input::placeholder {
     }
 
     .line1 {
+        position:relative;
         height: 0.5vw;
         width: 4vw;
         /* margin-right: 1vw; */
@@ -924,6 +925,7 @@ input::placeholder {
     }
 
     .line3 {
+        position:relative;
         height: 0.5vw;
         width: 4vw;
         margin-top: 0.5vw;
@@ -949,10 +951,10 @@ input::placeholder {
     #menu .text {
         font-size: 2.5vw;
         color: black;
+        position:relative;    
         /* text-decoration: none; */
         /* padding-left: 10vw; */
     }
-
     .center {
         height: 65vh;
         /* background-color: orange; */
@@ -964,7 +966,6 @@ input::placeholder {
         padding-bottom: 2.5vw;
         border-bottom: 1px solid black;
     }
-
     .right h1 {
         padding-top: 2vh;
         font-size: 16vw;
