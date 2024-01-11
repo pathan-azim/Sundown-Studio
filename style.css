@@ -41,7 +41,6 @@ body {
     background: linear-gradient(to right, orange, orangered);
     -webkit-background-clip: text;
     position: absolute;
-    opacity: 0;
     animation-name: load;
     animation-duration: 1s;
     animation-delay: 1s;
@@ -889,11 +888,6 @@ input::placeholder {
     display:none;
 }
 @media (max-width:600px) {
-
-    .loader{
-        display:none;
-    }
-    
     nav {
         width: 100%;
         padding: 2vw 4vw;
