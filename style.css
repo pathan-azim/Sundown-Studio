@@ -904,6 +904,7 @@ input::placeholder {
         z-index:inherit;
         height: 0.5vw;
         width: 4vw;
+        pointer-event:none;
         /* margin-right: 1vw; */
         background-color: #000;
         transition: all ease-in 0.5s;
@@ -913,6 +914,10 @@ input::placeholder {
     }
 
     .line2 {
+        
+        pointer-event:none;
+
+        
         /* margin-bottom: 0.5vw; */
         height: 0.5vw;
         width: 4vw;
@@ -921,12 +926,13 @@ input::placeholder {
         background-color: #000;
         transition: all ease-in 0.5s;
         transition: all ease-out 0s;
-
+    
         transform-origin: center;
 
     }
 
     .line3 {
+        pointer-event:none;
         position:relative;
         z-index:inherit;
         height: 0.5vw;
@@ -952,8 +958,11 @@ input::placeholder {
     #menu h3 {
         font-size: 2.5vw;
         color: black;
+        display:block;
+        pointer-event:none;
         position:relative; 
         z-index:inherit;
+        
         /* text-decoration: none; */
         /* padding-left: 10vw; */
     }
