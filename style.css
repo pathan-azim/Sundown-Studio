@@ -967,29 +967,32 @@ input::placeholder {
         /* padding-left: 10vw; */
     }
     .center {
-        height: 65vh;
+        height: 60vh;
         /* background-color: orange; */
         display: flex;
         align-items: flex-end;
         flex-direction: column-reverse;
         justify-content: space-between;
-        padding: 5vw 5vw;
+        padding: 10vw 5vw;
         padding-bottom: 2.5vw;
         border-bottom: 1px solid black;
     }
     .right h1 {
-        padding-top:8vw;
-        font-size: 6.5vh;
-        letter-spacing: -0.5vh;
-        line-height: 4vh;
+      letter-spacing: -.03em;
+      text-transform: uppercase;
+      font-family: Neuehaasdisplay mediu,sans-serif;
+      font-size: 7em;
+      font-weight: 500;
+      line-height: .8;
     }
 
     .left h3 {
         width: 80%;
-        font-size: 2vh;
-        line-height: 1.8vh;
-        letter-spacing: -0.1vh;
-        padding-bottom: 8vw;
+        letter-spacing: -.03em;
+        font-family: Neuehaasdisplay mediu,sans-serif;
+        font-size: 1.75em;
+        font-weight: 500;
+        line-height: 1;
     }
     .hero-shape {
         position: absolute;
